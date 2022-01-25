@@ -13,6 +13,9 @@ function displayDay() {
   }
   setInterval(displayDay, 1000);
 
+  $(document).ready(function(){
+
+   function timeTracker(){
 //to mark past ,present,future collect ids of each hourblock
   let taskInput = $(".row textarea[type=text]"); 
 //console.log('taskInput',taskInput);
@@ -21,7 +24,7 @@ $(taskInput).each(function() {
 
    const taskInputNumber = parseInt($(this).attr("id"));//collecting id's
 
-   //adding class to each hourblock
+   //check time and adding class to each background indicator
 if (taskInputNumber < currentHour) {
    $(this).addClass("past")}
    else if(taskInputNumber==currentHour){
@@ -33,7 +36,7 @@ else if (taskInputNumber > currentHour) {
 }
 
 });
-
+}
 //save button to save data
 $(".saveBtn").click(function(event) {
    event.preventDefault();
@@ -42,7 +45,7 @@ $(".saveBtn").click(function(event) {
    localStorage.setItem(hrTask,storeTask);
 });
 
-//recall data on refreshing
+//recall data on refreshing if any
 $("#9").val(localStorage.getItem(9));
 $("#10").val(localStorage.getItem(10));
 $("#11").val(localStorage.getItem(11));
@@ -53,5 +56,6 @@ $("#15").val(localStorage.getItem(15));
 $("#16").val(localStorage.getItem(16));
 $("#17").val(localStorage.getItem(17));
 
-
+timeTracker();
+})
 
