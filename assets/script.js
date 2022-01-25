@@ -43,15 +43,3 @@ $(".saveBtn").click(function(event) {
 });
 
 
-//data persist after page refreshes
-$("#9").val(localStorage.getItem(9));
-$("#10").val(localStorage.getItem(10));
-$("#11").val(localStorage.getItem(11));
-$("#12").val(localStorage.getItem(12));
-$("#13").val(localStorage.getItem(13));
-$("#14").val(localStorage.getItem(14));
-$("#15").val(localStorage.getItem(15));
-$("#16").val(localStorage.getItem(16));
-$("#17").val(localStorage.getItem(17));
-
-
