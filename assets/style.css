@@ -65,6 +65,8 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #06aed5;
     color: white;
+
+     
   }
   
   .saveBtn i:hover {
@@ -75,3 +77,35 @@ body {
  //     display:inline-flex;
 
   }*/
+  /* mediaqueries for tablets and smaller*/
+  @media screen and (max-width: 768px), screen and (max-width: 575px) {
+    .display-3{
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 1;
+}
+    .textarea{
+      font-size:12px ;
+    }
+    .row {
+      width:100%;
+        
+    }
+  
+    .hour {
+      padding-left:0;
+      font-size: 12px;
+    }
+  
+    .saveBtn {
+      font-size: 12px;
+  
+    padding-right: 8px;
+    padding-left: 8px;
+    
+}
+}
+  
+    
+  
+  
