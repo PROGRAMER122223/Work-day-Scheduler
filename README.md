@@ -71,14 +71,14 @@ $(".saveBtn").click(function (event) {
 
 [to-get-date-format](http://momentjs.com/docs/#/displaying/format/
 github.com)
-[to-get-element-id](https://www.codegrepper.com/code-examples/javascript/jquery+get+id+value)]
+[to-get-element-id](https://www.codegrepper.com/code-examples/javascript/jquery+get+id+value)
 [save-button-function](https://stackoverflow.com/questions/32294678/localstorage-on-button-click-jquery)
 [reference-github](https://githubhelp.com/BwayCarl/workday-scheduler)
 
 
 ## URLs
-1 [The URL of the deployed application]
+1 [The URL of the deployed application](https://programer122223.github.io/Work-day-Scheduler/)
 
-2 [URL Github REPOSITORY]
+2 [URL Github REPOSITORY](https://github.com/PROGRAMER122223/Work-day-Scheduler.git)
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
