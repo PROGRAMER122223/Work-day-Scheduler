@@ -2,7 +2,9 @@
 
 ## Description
 
-This application  allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.This application satisfies all the below acceptance criteria. By just having a look , user can idetify past ,present and future events and can able to reschedule it.
+This application  allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.This 
+
+application satisfies all the below acceptance criteria. By just having a look , user can idetify past ,present and future events and can able to reschedule it.
 
 
 ## User Story
@@ -69,14 +71,17 @@ $(".saveBtn").click(function (event) {
 
 ## API references 
 
-[to-get-date-format](http://momentjs.com/docs/#/displaying/format/
-github.com)
+[to-get-date-format](http://momentjs.com/docs/#/displaying/format/github.com)
+
 [to-get-element-id](https://www.codegrepper.com/code-examples/javascript/jquery+get+id+value)
+
 [save-button-function](https://stackoverflow.com/questions/32294678/localstorage-on-button-click-jquery)
+
 [reference-github](https://githubhelp.com/BwayCarl/workday-scheduler)
 
 
 ## URLs
+
 1 [The URL of the deployed application](https://programer122223.github.io/Work-day-Scheduler/)
 
 2 [URL Github REPOSITORY](https://github.com/PROGRAMER122223/Work-day-Scheduler.git)
